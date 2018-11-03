@@ -38,6 +38,9 @@
 		09AF778D218E317D00743965 = {
 			isa = PBXGroup;
 			children = (
+				09AF7799218E317D00743965 /* AppDelegate.swift */,
+				09AF77AC218E362600743965 /* Controler */,
+				09AF77AB218E35FE00743965 /* Sr¡toryBoard */,
 				09AF7798218E317D00743965 /* 01-IamRich */,
 				09AF7797218E317D00743965 /* Products */,
 			);
@@ -54,14 +57,27 @@
 		09AF7798218E317D00743965 /* 01-IamRich */ = {
 			isa = PBXGroup;
 			children = (
-				09AF7799218E317D00743965 /* AppDelegate.swift */,
-				09AF779B218E317D00743965 /* ViewController.swift */,
-				09AF779D218E317D00743965 /* Main.storyboard */,
 				09AF77A0218E317F00743965 /* Assets.xcassets */,
-				09AF77A2218E317F00743965 /* LaunchScreen.storyboard */,
 				09AF77A5218E317F00743965 /* Info.plist */,
 			);
 			path = "01-IamRich";
+			sourceTree = "<group>";
+		};
+		09AF77AB218E35FE00743965 /* Sr¡toryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				09AF779D218E317D00743965 /* Main.storyboard */,
+				09AF77A2218E317F00743965 /* LaunchScreen.storyboard */,
+			);
+			path = "Sr¡toryBoard";
+			sourceTree = "<group>";
+		};
+		09AF77AC218E362600743965 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				09AF779B218E317D00743965 /* ViewController.swift */,
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
