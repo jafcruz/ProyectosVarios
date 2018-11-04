@@ -12,6 +12,10 @@
 		09AF779F218E317D00743965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AF779D218E317D00743965 /* Main.storyboard */; };
 		09AF77A1218E317F00743965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77A0218E317F00743965 /* Assets.xcassets */; };
 		09AF77A4218E317F00743965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77A2218E317F00743965 /* LaunchScreen.storyboard */; };
+		09AF77AE218E3B5800743965 /* Rubi.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77AD218E3B5700743965 /* Rubi.png */; };
+		09AF77B2218F33B500743965 /* gems-clipart-ruby-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77AF218F33B400743965 /* gems-clipart-ruby-1.png */; };
+		09AF77B3218F33B500743965 /* gems-clipart-ruby-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77B0218F33B500743965 /* gems-clipart-ruby-1@2x.png */; };
+		09AF77B4218F33B500743965 /* gems-clipart-ruby-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AF77B1218F33B500743965 /* gems-clipart-ruby-1@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		09AF77A0218E317F00743965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AF77A3218E317F00743965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09AF77A5218E317F00743965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AF77AD218E3B5700743965 /* Rubi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rubi.png; sourceTree = "<group>"; };
+		09AF77AF218F33B400743965 /* gems-clipart-ruby-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gems-clipart-ruby-1.png"; sourceTree = "<group>"; };
+		09AF77B0218F33B500743965 /* gems-clipart-ruby-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gems-clipart-ruby-1@2x.png"; sourceTree = "<group>"; };
+		09AF77B1218F33B500743965 /* gems-clipart-ruby-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gems-clipart-ruby-1@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				09AF77A0218E317F00743965 /* Assets.xcassets */,
+				09AF77AF218F33B400743965 /* gems-clipart-ruby-1.png */,
+				09AF77B0218F33B500743965 /* gems-clipart-ruby-1@2x.png */,
+				09AF77B1218F33B500743965 /* gems-clipart-ruby-1@3x.png */,
+				09AF77AD218E3B5700743965 /* Rubi.png */,
 				09AF77A5218E317F00743965 /* Info.plist */,
 			);
 			path = "01-IamRich";
@@ -140,7 +152,11 @@
 			files = (
 				09AF77A4218E317F00743965 /* LaunchScreen.storyboard in Resources */,
 				09AF77A1218E317F00743965 /* Assets.xcassets in Resources */,
+				09AF77B3218F33B500743965 /* gems-clipart-ruby-1@2x.png in Resources */,
+				09AF77B4218F33B500743965 /* gems-clipart-ruby-1@3x.png in Resources */,
 				09AF779F218E317D00743965 /* Main.storyboard in Resources */,
+				09AF77AE218E3B5800743965 /* Rubi.png in Resources */,
+				09AF77B2218F33B500743965 /* gems-clipart-ruby-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

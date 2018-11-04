@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,61 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_1_IamRich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rubi.png" translatesAutoresizingMaskIntoConstraints="NO" id="hCD-UW-fYS">
+                                <rect key="frame" x="20" y="211" width="335" height="326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUf-SP-coi">
+                                <rect key="frame" x="20" y="119" width="328" height="52"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="47"/>
+                                <color key="textColor" red="0.83681994676589966" green="0.12399669736623764" blue="0.12789824604988098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg9-6y-XbD">
+                                <rect key="frame" x="110" y="630" width="155" height="52"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Pulsar">
+                                    <color key="titleColor" red="0.83681994680000005" green="0.12399669739999999" blue="0.12789824599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPulsar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CX9-p6-zt0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18310406872422322" green="0.033581045380136017" blue="0.23842292746113991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hCD-UW-fYS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="167" id="57h-CP-bwk"/>
+                            <constraint firstItem="hg9-6y-XbD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="63n-gg-nBx"/>
+                            <constraint firstItem="hCD-UW-fYS" firstAttribute="top" secondItem="uUf-SP-coi" secondAttribute="bottom" constant="40" id="IiR-q5-5D5"/>
+                            <constraint firstItem="hCD-UW-fYS" firstAttribute="top" secondItem="uUf-SP-coi" secondAttribute="bottom" constant="40" id="JqU-Sa-zld"/>
+                            <constraint firstItem="uUf-SP-coi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="KHT-Ib-zAZ"/>
+                            <constraint firstItem="hg9-6y-XbD" firstAttribute="top" secondItem="hCD-UW-fYS" secondAttribute="bottom" constant="93" id="M5h-e9-cnK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hg9-6y-XbD" secondAttribute="trailing" constant="110" id="NqG-Zd-raT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hCD-UW-fYS" secondAttribute="bottom" constant="241" id="bCy-wx-UXf"/>
+                            <constraint firstItem="uUf-SP-coi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gch-pC-5pj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uUf-SP-coi" secondAttribute="trailing" constant="27" id="h8L-Nj-tla"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hg9-6y-XbD" secondAttribute="bottom" constant="96" id="itQ-Tc-3Xx"/>
+                            <constraint firstItem="hCD-UW-fYS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mdY-px-htK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hCD-UW-fYS" secondAttribute="trailing" constant="20" id="rfH-MM-Tfb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnOutletPulsar" destination="hg9-6y-XbD" id="xx1-ZI-1vk"/>
+                        <outlet property="imgRubi" destination="hCD-UW-fYS" id="0jz-oy-Gep"/>
+                        <outlet property="lblTitulo" destination="uUf-SP-coi" id="S4C-B6-486"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="23.64130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Rubi.png" width="2397" height="2400"/>
+    </resources>
 </document>
